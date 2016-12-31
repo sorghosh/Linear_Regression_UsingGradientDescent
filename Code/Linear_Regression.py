@@ -88,10 +88,10 @@ class Preprocessing:
 
 
 #reading training and test dataset 
-training_dataset         = pd.read_csv(r"C:\Users\sauravghosh\Desktop\MachineLearning\Linear_Regression\MultiVariate_Regression\DataSet\Training_DataSet.txt",header = None)
+training_dataset         = pd.read_csv(r"Enter the training dataset file path",header = None)
 training_dataset.columns = ["Area","NoOfBedRooms","Price"]
 
-test_dataset             = pd.read_csv(r"C:\Users\sauravghosh\Desktop\MachineLearning\Linear_Regression\MultiVariate_Regression\DataSet\Test_DataSet.txt",header = None)
+test_dataset             = pd.read_csv(r"Enter the test dataset file path",header = None)
 test_dataset.columns     = ["Area","NoOfBedRooms","Price"]
 
 dataset_type_train = "Train"
