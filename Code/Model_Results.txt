@@ -1,0 +1,12 @@
+Parameters of the model
+---------------------------------
+Linear Regression using GradientDescent  :  [340412.65887981,  110620.41779752,   -6638.8417895 ]
+Linear Regression using sklean                     : [ 340412.6595744681  , 110631.05027885,   -6649.47427082]
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Model Validation Score
+----------------------------------------
+RSME of Linear Regression using GradientDescent : 63926.2090115
+RSME of Linear Regression using sklean is                 : 63926.2082499
+
+
