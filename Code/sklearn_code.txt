@@ -1,0 +1,7 @@
+from sklearn.linear_model import LinearRegression
+from sklearn import metrics
+
+lin_reg = LinearRegression()
+lin_reg.fit(x_train,y_train)
+y_pred = lin_reg.predict(x_train)
+print np.sqrt(metrics.mean_squared_error(y_train,y_pred))
